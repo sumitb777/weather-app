@@ -1,0 +1,26 @@
+.search-input:focus {
+ outline: none !important;
+}
+.search-input::placeholder{
+padding: 1rem !important;
+}
+body{
+  background-image: url("./images/galaxy.jpg");
+  background-size: cover !important;
+} 
+ button{
+   outline: none;
+   border: none;
+   width: 10;
+ }
+ .info{
+   background-image: url('./images/Hazy\ Night.webp');
+   background-size: cover;
+   display: none;
+ }
+ .error{
+   display: none;
+ }
+ .inputd{
+  width: 4rem; 
+ }
